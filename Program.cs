@@ -38,7 +38,7 @@ namespace EfPractice
             }
 
             Console.WriteLine("Done");
-            Console.ReadLine();
+            
         }
     }
 }
