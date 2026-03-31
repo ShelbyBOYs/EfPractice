@@ -7,7 +7,7 @@ public class AppDbContext : DbContext {
 
     protected override void OnConfiguring(DbContextOptionsBuilder options)
     {
-        options.UseSqlServer("Server=localhost\\SQLEXPRESS;Database=EfPracticeDb;Trusted_Connection=True;TrustServerCertificate=True;");
+        options.UseSqlServer("Server=localhost\\SQLEXPRESS;Database=EfPracticeDb_New;Trusted_Connection=True;TrustServerCertificate=True;");
     }
  
 
